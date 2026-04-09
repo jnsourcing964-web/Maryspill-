@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Spill | Luxury Suites</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="mainHeader">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Merry <span>Spill</span></a>
+        <button class="mobile-menu" id="menuToggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suites.html" class="active">Suites</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="wellness.html">Wellness</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="book-btn book-now-btn">Book Now</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="closeMobileNav"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="suites.html" class="active">Suites</a></li>
+        <li><a href="dining.html">Dining</a></li>
+        <li><a href="wellness.html">Wellness</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="book-btn-mobile book-now-btn">Book Now</a></li>
+    </ul>
+</div>
+
+<section class="page-hero" style="background: linear-gradient(rgba(15,30,46,0.7), rgba(15,30,46,0.5)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600') center/cover;">
+    <div class="container"><h1>Luxury Suites</h1><p>Experience the pinnacle of comfort in our carefully curated accommodations</p></div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div class="room-detail">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800" alt="Executive Suite">
+            <div><h2>Executive Suite</h2><div class="room-price">₦120,000 <span>/ night</span></div><ul><li><i class="fas fa-bed"></i> King-sized bed with Frette linens</li><li><i class="fas fa-bath"></i> Marble bathroom with rainforest shower</li><li><i class="fas fa-tv"></i> 55” Smart TV & Bose sound system</li><li><i class="fas fa-wifi"></i> High-speed WiFi</li><li><i class="fas fa-coffee"></i> Nespresso machine & premium minibar</li></ul><a href="#" class="btn book-room">Book Now</a></div>
+        </div>
+        <div class="room-detail reverse">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800" alt="Diplomatic Suite">
+            <div><h2>Diplomatic Suite</h2><div class="room-price">₦180,000 <span>/ night</span></div><ul><li><i class="fas fa-bed"></i> King bed + luxury sofa bed</li><li><i class="fas fa-wine-glass-alt"></i> Separate living & dining area</li><li><i class="fas fa-key"></i> Executive Lounge access</li><li><i class="fas fa-hot-tub"></i> Soaking tub + separate shower</li><li><i class="fas fa-concierge-bell"></i> Priority concierge service</li></ul><a href="#" class="btn book-room">Book Now</a></div>
+        </div>
+        <div class="room-detail">
+            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800" alt="Penthouse">
+            <div><h2>The Merry Spill Penthouse</h2><div class="room-price">₦350,000 <span>/ night</span></div><ul><li><i class="fas fa-building"></i> Two-level, 220 m²</li><li><i class="fas fa-umbrella-beach"></i> Private rooftop terrace</li><li><i class="fas fa-utensils"></i> Chef's kitchen & dining for 6</li><li><i class="fas fa-user-tie"></i> 24-hour butler service</li><li><i class="fas fa-film"></i> Home theater & Jacuzzi</li></ul><a href="#" class="btn book-room">Book Now</a></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div><div class="footer-logo">Merry Spill</div><p>Director Nsikak Green</p></div>
+            <div><h4>Contact</h4><p>0703 533 0717<br>0913 080 5610<br>0806 690 4653</p></div>
+            <div><h4>Location</h4><p>33 Samuel Effanga Crescent, Osongama Estate, Uyo</p></div>
+        </div>
+        <div class="copyright"><p>&copy; <span id="currentYear"></span> Merry Spill</p></div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Spill | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="mainHeader">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Merry <span>Spill</span></a>
+        <button class="mobile-menu" id="menuToggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="wellness.html">Wellness</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="#" class="book-btn book-now-btn">Book Now</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="closeMobileNav"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="suites.html">Suites</a></li>
+        <li><a href="dining.html">Dining</a></li>
+        <li><a href="wellness.html">Wellness</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="#" class="book-btn-mobile book-now-btn">Book Now</a></li>
+    </ul>
+</div>
+
+<section class="page-hero" style="background: linear-gradient(rgba(15,30,46,0.7), rgba(15,30,46,0.5)), url('https://images.unsplash.com/photo-1494522358652-c549345d2c9e?w=1600') center/cover;">
+    <div class="container"><h1>Your Sanctuary Awaits</h1><p>Reach out to begin your journey with us</p></div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-card"><i class="fas fa-phone-alt"></i><h3>Call Us</h3><div class="phone-list"><a href="tel:07035330717">0703 533 0717</a><a href="tel:09130805610">0913 080 5610</a><a href="tel:08066904653">0806 690 4653</a></div></div>
+            <div class="contact-card"><i class="fas fa-map-marker-alt"></i><h3>Visit Us</h3><p>33 Samuel Effanga Crescent<br>(Abel Damina Junction)<br>Osongama Estate, Uyo<br>Akwa Ibom State</p></div>
+            <div class="contact-card"><i class="fas fa-envelope"></i><h3>Email Us</h3><p>enquiries@merryspill.com<br>reservations@merryspill.com</p><a href="mailto:enquiries@merryspill.com" class="btn" style="margin-top: 16px;">Send Email</a></div>
+        </div>
+        <div style="max-width: 600px; margin: 70px auto 0;">
+            <h3 style="text-align:center; margin-bottom: 30px;">Send a Message</h3>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number">
+                <select name="enquiry">
+                    <option>Enquiry Type</option>
+                    <option>Reservation</option>
+                    <option>Dining</option>
+                    <option>Wellness</option>
+                    <option>General</option>
+                </select>
+                <textarea name="message" rows="4" placeholder="Your message"></textarea>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+            <p style="text-align:center; margin-top: 25px;">Or WhatsApp us directly: <a href="https://wa.me/2347033530717">0703 533 0717</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div><div class="footer-logo">Merry Spill</div><p>Director Nsikak Green</p></div>
+            <div><h4>Emergency / After Hours</h4><p>0806 690 4653</p></div>
+        </div>
+        <div class="copyright"><p>&copy; <span id="currentYear"></span> Merry Spill</p></div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

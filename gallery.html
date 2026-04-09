@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Spill | Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="mainHeader">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Merry <span>Spill</span></a>
+        <button class="mobile-menu" id="menuToggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="wellness.html">Wellness</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="book-btn book-now-btn">Book Now</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="closeMobileNav"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="suites.html">Suites</a></li>
+        <li><a href="dining.html">Dining</a></li>
+        <li><a href="wellness.html">Wellness</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="book-btn-mobile book-now-btn">Book Now</a></li>
+    </ul>
+</div>
+
+<section class="page-hero" style="background: linear-gradient(rgba(15,30,46,0.7), rgba(15,30,46,0.5)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600') center/cover;">
+    <div class="container"><h1>A Glimpse of Luxury</h1></div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div class="rooms-grid" id="galleryGrid"></div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div><div class="footer-logo">Merry Spill</div></div>
+            <div><h4>Follow Us</h4><i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i></div>
+        </div>
+        <div class="copyright"><p>&copy; <span id="currentYear"></span> Merry Spill</p></div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

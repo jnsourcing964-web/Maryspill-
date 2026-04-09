@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Spill | Dining</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="mainHeader">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Merry <span>Spill</span></a>
+        <button class="mobile-menu" id="menuToggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="dining.html" class="active">Dining</a></li>
+            <li><a href="wellness.html">Wellness</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="book-btn book-now-btn">Book Now</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <button class="mobile-close" id="closeMobileNav"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="suites.html">Suites</a></li>
+        <li><a href="dining.html" class="active">Dining</a></li>
+        <li><a href="wellness.html">Wellness</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="book-btn-mobile book-now-btn">Book Now</a></li>
+    </ul>
+</div>
+
+<section class="page-hero" style="background: linear-gradient(rgba(15,30,46,0.7), rgba(15,30,46,0.5)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600') center/cover;">
+    <div class="container"><h1>Culinary Excellence</h1><p>Niger Delta heritage reimagined with contemporary artistry</p></div>
+</section>
+
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div class="dining-venue">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800" alt="Spice & Sea">
+            <div><h2>Spice & Sea</h2><p>Fine dining restaurant celebrating the rich flavors of Akwa Ibom. Open daily: Breakfast 6:30–11am, Lunch 12–3pm, Dinner 6–11pm.</p><a href="#" class="btn reserve-table">Reserve Table</a></div>
+        </div>
+        <div class="dining-venue reverse">
+            <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800" alt="The Verandah">
+            <div><h2>The Verandah Lounge</h2><p>Craft cocktails, local botanicals, live acoustic music. Open 3pm–1am. Signature cocktails: Golden Spill, Niger Delta Mule.</p><a href="#" class="btn reserve-table">Reserve Table</a></div>
+        </div>
+        <h2 class="section-title">Signature Dishes</h2>
+        <div class="signature-dishes">
+            <div class="dish"><i class="fas fa-fish"></i><h4>Edikang Ikong Symphony</h4><p>Deconstructed traditional soup with smoked fish foam</p></div>
+            <div class="dish"><i class="fas fa-shrimp"></i><h4>Creek Prawn Carnival</h4><p>Jumbo prawns in spicy coconut broth</p></div>
+            <div class="dish"><i class="fas fa-drumstick-bite"></i><h4>Afang Forest</h4><p>Herb-crusted chicken with Afang leaf emulsion</p></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div><div class="footer-logo">Merry Spill</div></div>
+            <div><h4>Dining Enquiries</h4><p>0703 533 0717<br>dining@merryspill.com</p></div>
+        </div>
+        <div class="copyright"><p>&copy; <span id="currentYear"></span> Merry Spill</p></div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
